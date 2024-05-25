@@ -24,9 +24,9 @@ app.get('/CUIL/:CUIL', (req, res) => {
   const { CUIL } = req.params;
   const user = users.find((user) => user.CUITCliente === parseInt(CUIL))
   if (!!user) {
-    res.json(
+    res.status(200).json(
       {
-        "status": "200",
+        "status": "success",
         "msg": `The CUIL ${CUIL} is correct`,
         "user": {
           "name": user.nombreCliente,
@@ -36,9 +36,9 @@ app.get('/CUIL/:CUIL', (req, res) => {
       }
     );
   } else {
-    res.json(
+    res.status(404).json(
       {
-        "status": "400",
+        "status": "error",
         "msg": `User with CUIL ${CUIL} not found`,
       }
     );
