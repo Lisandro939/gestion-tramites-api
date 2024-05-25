@@ -1,0 +1,79 @@
+[
+    {
+        "id": 1,
+        "clienteTipo": "Platinum",
+        "nombreCliente": "Lisandro Fernandez",
+        "CUITCliente": 20442469424,
+        "direccionCliente": "Necochea 53",
+        "fechaHoraAltaCliente": "2024-01-01 12:00:00",
+        "fechaHoraBajaCliente": "2024-04-01 12:00:00",
+        "mailCliente": "lisandrofernandez@gmail.com",
+        "telefonoCliente": 2612534644
+    },
+    {
+        "id": 2,
+        "clienteTipo": "Gold",
+        "nombreCliente": "Pepito Fernandez",
+        "CUITCliente": 20445556664,
+        "direccionCliente": "Necochea 53",
+        "fechaHoraAltaCliente": "2024-01-01 12:00:00",
+        "fechaHoraBajaCliente": "2024-03-03 12:00:00",
+        "mailCliente": "lisandrofernandez@gmail.com",
+        "telefonoCliente": 2612534644
+    },
+    {
+        "id": 3,
+        "clienteTipo": "Bronze",
+        "nombreCliente": "Pedro Sanchez",
+        "CUITCliente": 20556669994,
+        "direccionCliente": "Necochea 53",
+        "fechaHoraAltaCliente": "2024-01-01 12:00:00",
+        "fechaHoraBajaCliente": null,
+        "mailCliente": "lisandrofernandez@gmail.com",
+        "telefonoCliente": 2612534644
+    },
+    {
+        "id": 4,
+        "clienteTipo": "Iron",
+        "nombreCliente": "Juan Guerra",
+        "CUITCliente": 20887773334,
+        "direccionCliente": "Necochea 53",
+        "fechaHoraAltaCliente": "2024-01-01 12:00:00",
+        "fechaHoraBajaCliente": null,
+        "mailCliente": "lisandrofernandez@gmail.com",
+        "telefonoCliente": 2612534644
+    },
+    {
+        "id": 5,
+        "clienteTipo": "Black",
+        "nombreCliente": "Frederick Soelle Soelle",
+        "CUITCliente": 20556662224,
+        "direccionCliente": "Necochea 53",
+        "fechaHoraAltaCliente": "2024-01-01 12:00:00",
+        "fechaHoraBajaCliente": null,
+        "mailCliente": "lisandrofernandez@gmail.com",
+        "telefonoCliente": 2612534644
+    },
+    {
+        "id": 6,
+        "clienteTipo": "Bronze",
+        "nombreCliente": "Agustina García",
+        "CUITCliente": 20994445554,
+        "direccionCliente": "Necochea 53",
+        "fechaHoraAltaCliente": "2024-01-01 12:00:00",
+        "fechaHoraBajaCliente": null,
+        "mailCliente": "lisandrofernandez@gmail.com",
+        "telefonoCliente": 2612534644
+    },
+    {
+        "id": 7,
+        "clienteTipo": "Iron",
+        "nombreCliente": "Mariana García",
+        "CUITCliente": 20663335554,
+        "direccionCliente": "Necochea 53",
+        "fechaHoraAltaCliente": "2024-01-01 12:00:00",
+        "fechaHoraBajaCliente": null,
+        "mailCliente": "lisandrofernandez@gmail.com",
+        "telefonoCliente": 2612534644
+    }
+]
