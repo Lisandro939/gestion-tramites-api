@@ -1,5 +1,6 @@
 const express = require('express');
 const path = require('path')
+const cors = require('cors');
 
 const app = express();
 
@@ -10,6 +11,13 @@ const users = require("./data/users.json")
 app.use(express.static(path.join(__dirname, 'public')))
   .set('views', path.join(__dirname, 'views'))
   .set('view engine', 'ejs');
+
+const corsOptions = {
+  origin: '*',
+  optionsSuccessStatus: 200,
+};
+
+app.use(cors(corsOptions));
 
 app.get('/views', (req, res) => {
   res.render('index');
